@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <title>GadgetHub</title>
+
+  <script>
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+      loader.style.display = 'none';
+      document.body.style.overflowY = "visible"
+    })
+  </script>
+  <script type="module" crossorigin src="/assets/main-Cqpn7DC7.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/footer-CQSg-sQo.js">
+  <link rel="modulepreload" crossorigin href="/assets/header-t6QKVv-v.js">
+  <link rel="modulepreload" crossorigin href="/assets/updateCartBadge-Cq1zo2Ca.js">
+  <link rel="stylesheet" crossorigin href="/assets/footer-PMsnArAz.css">
+</head>
+
+<body>
+  <div class="loader" id="loader">
+    <div class="loadingio-spinner-spin-ra02edfc4d">
+      <div class="ldio-m8813irb7">
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+        <div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="toast-box" class="toast-box rounded"></div>
+
+  <!-- * ------- Header ------- -->
+  <header></header>
+
+  <!-- * ------- Navigation ------- -->
+  <nav class="navbar" active-page="home"></nav>
+
+  <!-- * ------- Main ------- -->
+  <main style="margin-top: 0 !important;">
+
+    <!-- * ------- Hero ------- -->
+    <section class="hero shadow">
+      <div class="hero-background"></div>
+
+      <div class="hero-content container flex-between-center">
+        <div class="hero-text">
+          <h2>30% off on VR headsets</h2>
+          <h1>Transform your life with Next-Gen Tech</h1>
+          <h3>Experience innovation like never before.</h3>
+          <a href="" class="stylish-btn rounded">Shop Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- * ------- Features ------- -->
+    <section>
+      <div class="feature-cards container flex-between-center gap-2">
+        <div class="feature-card flex gap-1-half">
+          <h2 class="flex gap-1"><i class="las la-shipping-fast icon"></i> Fast Shipping</h2>
+          <p>Get your products delivered quickly with our expedited shipping options.</p>
+        </div>
+
+        <div class="feature-card flex gap-1-half">
+          <h2 class="flex gap-1"><i class="las la-check-circle icon"></i> Top Quality</h2>
+          <p>We offer only the highest quality tech products, carefully selected and tested.</p>
+        </div>
+
+        <div class="feature-card flex gap-1-half">
+          <h2 class="flex gap-1"><i class="las la-headset icon"></i> 24/7 Support</h2>
+          <p>Our customer support team is available around the clock to assist you with any questions.</p>
+        </div>
+    </section>
+
+    <!-- * ------- Products ------- -->
+    <section id="products" class="products container">
+      <h1 class="section-title">Products</h1>
+
+      <div class="products-container"></div>
+      <div class="show-all"><a href="./products.html" class="">Show All</a></div>
+
+      <template class="product-card-template">
+        <div class="product-card flex gap-1-half rounded">
+          <button type="button" class="las la-arrows-alt-v expand-card"></button>
+          <p class="stock-label" style="border-radius:1rem;">in stock 3 pieces</p>
+          <div class="product-image rounded"></div>
+          <div class="product-details grid gap-1">
+            <h2 class="product-name"></h2>
+            <p class="product-description none"></p>
+            <div class="product-rating none">
+              <i class="las la-star"></i>
+              <i class="las la-star"></i>
+              <i class="las la-star"></i>
+              <i class="las la-star"></i>
+              <i class="las la-star-half-alt"></i>
+            </div>
+
+            <div class="product-price flex">
+              <h3 class="new-price"></h3>
+              <span class="old-price"></span>
+            </div>
+
+            <div class="total-pieces flex-between-center">
+              Quantity:&nbsp;
+              <button class="las la-minus decreament"></button>
+              <span>1</span>
+              <button class="las la-plus increament"></button>
+            </div>
+            <button class="add-to-cart rounded">Add to Cart <i class="las la-shopping-cart"></i></button>
+          </div>
+        </div>
+      </template>
+    </section>
+
+    <!-- * ------- newsletter ------- -->
+    <div class="newsletter container flex-between-center gap-2">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest tech trends and exclusive offers. Enter your email below:</p>
+
+      <form class="newsletter-form flex">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+
+  </main>
+
+  <!-- * ------- Footer ------- -->
+  <footer></footer>
+
+
+</body>
+
+</html>
