@@ -7,12 +7,10 @@
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <title>GadgetHub</title>
-
-  <script type="module" crossorigin src="/assets/addToCart-8pcLWOp4.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/footer-CQSg-sQo.js">
-  <link rel="modulepreload" crossorigin href="/assets/header-t6QKVv-v.js">
-  <link rel="modulepreload" crossorigin href="/assets/updateCartBadge-Cq1zo2Ca.js">
-  <link rel="stylesheet" crossorigin href="/assets/footer-PMsnArAz.css">
+
+  <link rel="stylesheet" href="modules.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loader.css">
 </head>
 
 <body>
@@ -49,10 +47,12 @@
   <div id="toast-box" class="toast-box rounded"></div>
 
   <!-- * ------- Header ------- -->
-  <header></header>
+  <header></header>
+  <script type="module" src="header.js"></script>
 
   <!-- * ------- Navigation ------- -->
-  <nav class="navbar" active-page="add-to-cart"></nav>
+  <nav class="navbar" active-page="add-to-cart"></nav>
+  <script type="module" src="navbar.js"></script>
 
   <!-- * ------- Main ------- -->
   <main>
@@ -63,7 +63,7 @@
       <div class="carts-container grid gap-1">
         <p class="empty-cart none flex-between-center">
           Your cart is empty
-          <img loading="lazy" src="/assets/empty-cart-Nsa1qgLr.png" alt="empty-cart">
+          <img loading="lazy" src="public/img/empty-cart.png" alt="empty-cart">
         </p>
       </div>
 
@@ -109,9 +109,11 @@
   </main>
 
   <!-- * ------- Footer ------- -->
-  <footer></footer>
+  <footer></footer>
+  <script type="module" src="footer.js"></script>
 
-
+
+  <script type="module" src="addToCart.js"></script>
   <script>
     window.addEventListener('load', () => {
       const loader = document.getElementById('loader');

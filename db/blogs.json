@@ -1,0 +1,57 @@
+[
+  {
+    "id": "XKVVPOIN",
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "brand": "SoundTech",
+    "price": 99.99,
+    "oldPrice": 129.99,
+    "stock": 5,
+    "img": "https://img.freepik.com/free-vector/headphones-background-design_1063-131.jpg?t=st=1724686194~exp=1724689794~hmac=8002f3a9736ac9c767c4037d950155cc491d65a9bda589806243d6ff72e8e9f0&w=740",
+    "description": "High-quality wireless headphones with noise cancellation."
+  },
+  {
+    "id": "10FV2MB4",
+    "name": "Gaming Mouse",
+    "category": "Electronics",
+    "brand": "GamerPro",
+    "price": 49.99,
+    "oldPrice": 69.99,
+    "stock": 15,
+    "img": "https://img.freepik.com/free-vector/wireless-computer-mouse-with-led-lights-3d-illustration-cartoon-drawing-tool-playing-games-home-working-office-3d-style-white-background-technology-equipment-concept_778687-694.jpg?t=st=1724686471~exp=1724690071~hmac=9605798d0c7f72ffceff960082bcecf4fbc07979d471b8ad8faf50adb61f21ea&w=740",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting."
+  },
+  {
+    "id": "7QBDDEYB",
+    "name": "Smartphone",
+    "category": "Mobile Phones",
+    "brand": "TechPlus",
+    "price": 599.99,
+    "oldPrice": 699.99,
+    "stock": 10,
+    "img": "https://img.freepik.com/free-vector/realistic-display-smartphone-with-different-apps_52683-30241.jpg?t=st=1724693447~exp=1724697047~hmac=ad697d3fadb0a89124f45b47f93767c60d64944e4c649a9151a2f6a814b3deca&w=740",
+    "description": "Latest model smartphone with 128GB storage and 5G connectivity."
+  },
+  {
+    "id": "S04232RN",
+    "name": "Laptop",
+    "category": "Computers",
+    "brand": "UltraNote",
+    "price": 899.99,
+    "oldPrice": 1099.99,
+    "stock": 15,
+    "img": "https://w7.pngwing.com/pngs/931/22/png-transparent-laptop-video-game-lenovo-gamer-computer-laptops-game-electronics-netbook-thumbnail.png",
+    "description": "Powerful laptop with 16GB RAM and 512GB SSD for seamlFWT39N8Bs multitasking."
+  },
+  {
+    "id": "0X5URCO4",
+    "name": "4K Monitor",
+    "category": "Electronics",
+    "brand": "Visionary",
+    "price": 399.99,
+    "oldPrice": 499.99,
+    "stock": 5,
+    "img": "https://img.freepik.com/free-photo/view-computer-monitor-display_23-2150757307.jpg?t=st=1724693504~exp=1724697104~hmac=6bd33e860916425510ad211dd97ed87232da1bad2f4a609a2988a1f2dc9d856a&w=900",
+    "description": "Ultra HD 4K monitor with vibrant colors and high refresh rate."
+  }
+]

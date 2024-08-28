@@ -1,0 +1,71 @@
+/* * ------- Layout Styles ------- * */
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1-half {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.shadow {
+  box-shadow: 0 0.3rem 0.3rem 0 #f7f7f7da;
+}
+
+.none {
+  display: none;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: background-color 0.3s ease;
+  align-self: center;
+  width: max-content;
+  cursor: pointer;
+  border-radius: 0.3rem;
+
+  &:hover{
+    background-color: var(--black-color);
+  }
+}
+
+.toast-box {
+  position: fixed;
+  top: 3rem;
+  right: -100%;
+  padding: 0.8rem 2rem;
+  color: white;
+  background-color: var(--primary-color);
+  z-index: 99999;
+  text-wrap: nowrap;
+  transition: all 0.3s ease-in-out;
+}
